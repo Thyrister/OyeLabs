@@ -5,6 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 1. Firebase for Login
 2. React
 
+## Note
+1. Once you login you cannot logout. 
+
 
 
 
