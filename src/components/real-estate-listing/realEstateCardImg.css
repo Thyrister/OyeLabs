@@ -1,0 +1,32 @@
+.realEstateCardImg {
+  position: relative;
+  margin-bottom: 10px;
+  /*to align the reference correctly*/
+  display: flex;
+}
+
+.realEstateCardImg__img {
+  margin: auto;
+  width: auto;
+  height: auto;
+  border-radius: 5px 5px 0 0;
+  object-fit: cover;
+}
+
+.realEstateCardImg__editButton {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 5px 0 0;
+  background-color: green;
+  color: white;
+}
+
+.realEstateCardImg__deleteButton {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-radius: 5px 0 0 0;
+  background-color: red;
+  color: white;
+}
